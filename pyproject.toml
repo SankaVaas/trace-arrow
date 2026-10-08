@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracearrow"
+version = "0.1.0"
+description = "TRACE: Time-Reversal Asymmetry Control & Estimation"
+requires-python = ">=3.9"
+dependencies = ["torch>=2.1", "numpy", "scipy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+include = ["tracearrow*"]
